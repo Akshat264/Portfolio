@@ -1,0 +1,479 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, rgb(245, 197, 245), white);
+}
+.container1 {
+  height: 100vh;
+  /* background-image: url("bg.png"); */
+  background-size: cover;
+}
+.fa-size {
+  font-size: 2.4vw;
+  line-height: -1em;
+}
+.navigation {
+  display: flex;
+  gap: 3vw;
+  list-style: none;
+  padding-top: 2vw;
+  padding-left: 4rem;
+  align-items: center;
+}
+.navigation li > a[href] {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(6, 14, 240);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 1.2vw;
+  border-radius: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navigation li > a:hover {
+  background-color: purple;
+}
+.name {
+  margin-top: -6vh;
+  text-align: right;
+  margin-right: 6vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  font-size: 3vw;
+  text-shadow: 6px 2px 0 rgb(7, 7, 7);
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+}
+.links {
+  display: flex;
+  /* margin-left: 77.5vw;
+  margin-top: 4vh; */
+  /* margin-top: -1.4vh; */
+  gap: 1.3vw;
+  background-color: white;
+  padding: 2px;
+  border-radius: 20px;
+  width: fit-content;
+}
+.fa-github {
+  color: #171515;
+}
+.fa-linkedin {
+  color: #0a66c2;
+}
+.fa-facebook {
+  color: #3b5998;
+}
+.flex {
+  display: flex;
+  margin-top: 7vw;
+  justify-content: space-evenly;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* .code {
+  color: white;
+  font-size: 5vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 4vh;
+  margin-left: 6vw;
+} */
+.code {
+  margin-left: 8vw;
+  margin-top: 2vh;
+}
+.tech,
+.people {
+  font-size: 3.35vw;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(246, 246, 27);
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 20px;
+  /* padding-top: 4px;
+  padding-bottom: 4px; */
+}
+.people {
+  padding-bottom: 4px;
+}
+.best {
+  font-size: 2vw;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+.bring {
+  color: white;
+  font-size: 2vw;
+  font-family: "Times New Roman", Times, serif;
+}
+.together {
+  color: white;
+  font-size: 3vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.mainimage {
+  border-radius: 20%;
+  margin-top: -4vw;
+  margin-left: 17vw;
+  border: 2px solid rgb(70, 70, 68);
+}
+.about {
+  font-family: fantasy;
+  font-size: 4vw;
+  text-align: center;
+}
+.links > a:hover .fa-facebook {
+  color: rgb(18, 101, 243);
+}
+.links > a:hover .fa-github {
+  color: rgb(63, 54, 54);
+}
+.links > a:hover .fa-linkedin {
+  color: rgb(8, 172, 243);
+}
+.intro {
+  width: 38vw;
+  padding: 5vh;
+  /* border: solid black 4px; */
+  background-color: rgb(244, 241, 241);
+  margin-top: 3vh;
+}
+.introduction {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2vw;
+  margin-bottom: 5vh;
+  font-weight: 800;
+}
+.brief {
+  /* text-align: center; */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5vw;
+  margin-left: 3vh;
+  margin-right: 3vh;
+}
+.container3 {
+  display: flex;
+}
+.technical {
+  width: 58vw;
+  padding: 5vh;
+  /* border: solid black 4px; */
+  background-color: rgb(244, 241, 241);
+  margin-top: 3vh;
+}
+.flip-box-next {
+  /* margin-left: -10vh; */
+  margin-top: 3vh;
+}
+.flip-box-next2 {
+  margin-top: 5vh;
+}
+/* .flip-box-next3 {
+  margin-left: -10vh;
+  margin-top: 5vh;
+} */
+.images,
+.images2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 4vh;
+  margin-top: 2vh;
+}
+.images2 {
+  margin-top: 4vw;
+}
+.plus {
+  margin-top: 3vh;
+}
+.marks {
+  margin-left: 3vw;
+}
+.hotel {
+  font-size: 4vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 3vh;
+}
+.section3 {
+  padding: 2.5vh;
+}
+.detail {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3vh;
+  margin-top: 2vh;
+  margin-left: 2vw;
+}
+.swiper {
+  width: 60%;
+  /* height: fit-content; */
+  margin-top: 5vh;
+}
+.swiper-slide {
+  width: 100%;
+}
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  color: rgb(9, 5, 232);
+}
+.swiper .swiper-pagination-bullet-active {
+  background-color: rgb(253, 253, 255);
+}
+.link {
+  color: #0a66c2;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.section4 {
+  padding: 10vh;
+}
+.container4 {
+  display: flex;
+  justify-content: center;
+}
+.contact_image {
+  background: url("https://media.istockphoto.com/id/1388001249/photo/abstract-illustration-with-connected-dots-and-lines-digital-network-background-the-concept-of.jpg?b=1&s=170667a&w=0&k=20&c=8EZbZvdH3yqhf8IeHxg4Jk4JnnyWRE5zh89dCtUnxVE=");
+  height: 70vh;
+  width: 50%;
+  border-radius: 20px 0 0 20px;
+  background-size: cover;
+}
+.contact_form {
+  width: 30%;
+  height: 69.7vh;
+  border-bottom: solid 1px grey;
+  background-color: white;
+  border-top: solid 1px grey;
+  border-right: solid 1px grey;
+  border-radius: 0 20px 20px 0;
+}
+.container2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contact {
+  margin-top: 5vh;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 6vh;
+  color: white;
+  margin-bottom: 10vh;
+}
+.personal {
+  color: rgb(246, 236, 236);
+  font-size: 3.5vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  margin-bottom: 4vh;
+  border-bottom: white 2px;
+  /* text-decoration: underline; */
+}
+.contact_form input {
+  width: 80%;
+  height: 8vh;
+  border: none;
+  border-bottom: 1px grey solid;
+  margin-left: 2.5vw;
+  margin-top: 6vh;
+  font-size: 1.2rem;
+  padding-left: 1vw;
+  background-color: whitesmoke;
+}
+.contact_form input:focus {
+  outline: none;
+}
+#textarea {
+  width: 81%;
+  margin-left: 2.5vw;
+  margin-top: 7vh;
+  height: 15vh;
+  border: none;
+  border-bottom: 1px grey solid;
+  font-size: 1.3rem;
+  padding-left: 1vw;
+  background-color: whitesmoke;
+}
+#textarea:focus {
+  outline: none;
+}
+.submit {
+  margin-left: 40%;
+  margin-top: 4vh;
+  height: 6vh;
+  width: 6vw;
+  background-color: #0a66c2;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+}
+.empty,
+.empty2,
+.numbers {
+  color: rgb(247, 71, 71);
+  margin-left: 2.5vw;
+}
+.display {
+  display: block;
+}
+.back-ground {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: 0;
+}
+@media (min-aspect-ratio: 16/9) {
+  .back-ground {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  .back-ground {
+    width: auto;
+    height: 100%;
+  }
+}
+/* Performing flip function */
+.flip-box {
+  background-color: transparent;
+  width: 12vw;
+  height: 11vw;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+  position: absolute;
+  padding: 3px;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+.flip-box-back p {
+  font-size: 0.8vw;
+}
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: rgb(244, 241, 241);
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: rgb(6, 76, 137);
+  color: white;
+  transform: rotateY(180deg);
+  border-radius: 30%;
+}
+.flip-box-back-yellow {
+  background-color: rgb(238, 238, 65);
+  color: #171515;
+}
+.flip-box-back-green {
+  background-color: rgb(91, 249, 91);
+  color: #171515;
+}
+.flip-box-back-orange {
+  background-color: orangered;
+  color: white;
+}
+.footer {
+  height: 45vh;
+  background-color: #211731;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.first {
+  display: flex;
+  justify-content: center;
+}
+.name2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 3vh;
+}
+.names {
+  width: fit-content;
+  margin-left: 8vw;
+  margin-top: 7vh;
+}
+.follow,
+.cp {
+  width: 20vw;
+  margin-top: 7vh;
+  margin-left: 10vw;
+  /* text-align: center; */
+  font-size: 2vh;
+}
+.cp {
+  margin-left: 1vw;
+}
+.white {
+  color: white;
+}
+a[href] {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: azure;
+}
+.ends {
+  margin-top: 8vh;
+}
+.end {
+  font-size: 1.8vh;
+  text-align: center;
+}
+.linkblue {
+  color: blue;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1050px) {
+  .container1 nav .navigation {
+    flex-direction: column;
+    transition: all 0.7s ease-out;
+    position: relative;
+  }
+  .flex {
+    display: flex;
+    margin-top: 14vw;
+    justify-content: space-evenly;
+  }
+}
